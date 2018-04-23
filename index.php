@@ -8,7 +8,7 @@ for($i=0;$i<10;$i++){
     $LinkList->insertEnd($i);
 
 }
-$tmp=$LinkList->head;
+$tmp=$LinkList->head.'---abc';
 
 $LinkList->insertByIdx(4,12);
 
